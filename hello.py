@@ -7,9 +7,9 @@ def hello_world():
     html += '<h2>OK</h2>'
     return html
 
-@app.route('/azka')
+@app.route('/bob')
 def azka():
-    user = "Azka"
+    user = "Bob"
     return render_template('azka.html',name = user)
 
 @app.route('/daftar')
