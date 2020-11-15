@@ -10,7 +10,7 @@ def hello_world():
 @app.route('/bob')
 def azka():
     user = "Bob"
-    return render_template('azka.html',name = user)
+    return render_template('bob.html',name = user)
 
 @app.route('/daftar')
 def daftar():
